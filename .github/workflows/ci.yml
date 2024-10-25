@@ -1,4 +1,4 @@
-name: Lint, Test, Tag, Build and Deploy DEV
+name: Lint, Test, Tag, Build and Deploy
 
 on:
   push:
@@ -25,11 +25,11 @@ jobs:
     - uses: actions/checkout@v4
     - uses: psf/black@stable
       with:
-        options: "-l 100 --exclude '/.venv/|alembic/|/__init__.py'"
+        options: "-l 100 --exclude '/.venv/|/__init__.py'"
     - uses: creyD/autoflake_action@master
       with:
         no_commit: True
-        options: --in-place --remove-all-unused-imports -r --exclude **/__init__.py,**/db/models.py,
+        options: --in-place --remove-all-unused-imports -r --exclude **/__init__.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Adjusted files for isort & autopep
