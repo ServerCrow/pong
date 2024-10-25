@@ -78,7 +78,7 @@ jobs:
           major_pattern: "breaking:"
           minor_pattern: "feat:"
           enable_prerelease_mode: false
-          version_format: "${major}.${minor}.${patch}-rc${increment}"
+          version_format: "${major}.${minor}.${patch}"
 
       - name: Create Tag
         run: git tag ${{ steps.git_version.outputs.version }}
