@@ -1,9 +1,7 @@
 import os
-from fastapi import APIRouter
-from fastapi import Response
+from fastapi import APIRouter, FastAPI, Response
 from creyPY.fastapi.app import generate_unique_id
 from dotenv import load_dotenv
-from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
