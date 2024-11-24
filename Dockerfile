@@ -11,7 +11,6 @@ ENV VERSION=${VERSION}
 
 # Install dependencies
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
-RUN pip install 'uvicorn[standard]'
 
 ENV ENV=DEV
 
