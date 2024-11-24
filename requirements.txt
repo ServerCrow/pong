@@ -1,7 +1,7 @@
 certifi==2024.7.4 # Testing
 iniconfig==2.0.0 # PyTest Testing
 packaging==23.2 # PyTest Testing
-pluggy==1.3.0 # PyTest Testing
+pluggy==1.5.0 # PyTest Testing
 pytest==7.4.4 # PyTest Testing
 
 click==8.1.7 # Uvicorn
