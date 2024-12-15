@@ -7,7 +7,7 @@ pytest==7.4.4 # PyTest Testing
 click==8.1.7 # Uvicorn
 httptools==0.6.4 # Uvicorn
 pyyaml==6.0.2 # Uvicorn
-uvicorn==0.27.0.post1 # Uvicorn
+uvicorn==0.34.0 # Uvicorn
 uvloop==0.19.0 # Uvicorn
 watchfiles==0.21.0 # Uvicorn
 websockets==12.0 # Uvicorn
