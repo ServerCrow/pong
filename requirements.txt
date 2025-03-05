@@ -10,6 +10,6 @@ pyyaml==6.0.2 # Uvicorn
 uvicorn==0.34.0 # Uvicorn
 uvloop==0.21.0 # Uvicorn
 watchfiles==1.0.4 # Uvicorn
-websockets==14.2 # Uvicorn
+websockets==15.0.1 # Uvicorn
 
 creyPY[postgres]==3.0.0 # My own package
