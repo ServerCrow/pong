@@ -1,6 +1,6 @@
 certifi==2025.4.26 # Testing
 iniconfig==2.1.0 # PyTest Testing
-packaging==24.2 # PyTest Testing
+packaging==25.0 # PyTest Testing
 pluggy==1.5.0 # PyTest Testing
 pytest==8.3.5 # PyTest Testing
 
