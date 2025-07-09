@@ -1,4 +1,4 @@
-certifi==2025.6.15 # Testing
+certifi==2025.7.9 # Testing
 iniconfig==2.1.0 # PyTest Testing
 packaging==25.0 # PyTest Testing
 pluggy==1.6.0 # PyTest Testing
